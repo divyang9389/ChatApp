@@ -6,19 +6,15 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version : 2.6
+* Postgres databse
 
-* System dependencies
+# Install bundle
+# Create Database & migrate
+  rails rake db:create
+  rails rake db:migrate
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# create seed data
+  rails rake db:seed
+  
+# run application
+  rails server
