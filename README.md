@@ -9,6 +9,8 @@ Things you may want to cover:
 * Postgres databse
 
 # Install bundle
+  bundle install
+  
 # Create Database & migrate
   rails rake db:create
   rails rake db:migrate
